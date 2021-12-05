@@ -4,8 +4,11 @@ const Hapi = require('@hapi/hapi');
 const request = require('request')
 const cheerio = require('cheerio')
 const https = require('https');
+const crypto = require("crypto");
 
-const URL = 'https://cat888.com/'
+var n = crypto.randomInt(0, 1000000);
+
+const URL = 'https://cat888.com/?v'+n
 
 const init = async () => {
 
