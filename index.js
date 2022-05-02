@@ -8,7 +8,7 @@ const crypto = require("crypto");
 
 var n = crypto.randomInt(0, 1000000);
 
-const URL = 'https://cat888.com/?v'+n
+const URL = 'https://cat888.vip/?v'+n
 
 const init = async () => {
 
